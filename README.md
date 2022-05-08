@@ -1,3 +1,10 @@
+# Made with:
+- React
+- JavaScript
+- SCSS/CSS
+
+### Made with the purpose of compiling some JavaScript Canvas project for demonstration.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
