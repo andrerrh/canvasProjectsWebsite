@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContainer {
+    width: 25vw;
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    transition: 0.3;
+    
+    button {
+        border: none;
+        font-family: monospace;
+        margin: 5px;
+        height: 50px;
+        border-radius: 3px;
+        font-size: 1.3rem;
+        flex: 30%;
+        transition: 0.3;
+    }
+}
+
+.input {
+    margin: 5px;
+    flex: 50%;
+    border: black solid 1px;;
+    border-radius: 5px;
+    height: 1.5rem;
+    font-family: monospace;
+    transition: 0.3;
+}
+
+.input:focus {
+    outline: none;
+    transition: 0.3;
+}

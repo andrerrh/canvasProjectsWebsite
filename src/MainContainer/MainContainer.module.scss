@@ -1,0 +1,115 @@
+.mainContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(70, 70, 70);
+    backdrop-filter: blur(55px);
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: grey;
+        font-weight: 600;
+        text-transform: uppercase;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+
+        &:hover {
+            color: white !important;
+        }
+    }
+}
+
+.underline {
+    position: absolute;
+    left: 0;
+    width: calc(100% / 6);
+    height: 100%;
+    border-bottom: 1px solid white;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.siteDisplay {
+    width: 100%;
+    height: 100%;
+}
+
+.infosContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50vw;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+    border: 1px solid rgb(70,70,70);
+    backdrop-filter: blur(25px);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid rgb(70, 70, 70);
+    bottom: 0;
+    backdrop-filter: blur(55px);
+    color: white;
+    font-size: 3rem;
+
+    a {
+        transition: 0.3s;
+        &:visited {
+            color: white;
+        }
+
+        &:hover {
+            filter: drop-shadow(0 0 5px white)
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mainContainer {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .infosContainer{
+        border-radius: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transform: translate(0, 0);
+    }
+}

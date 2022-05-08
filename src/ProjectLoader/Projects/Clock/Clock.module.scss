@@ -1,0 +1,27 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startStopBtn {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
+    color: white;
+    transition: 0.2s
+}
+
+.startStopBtn:hover {
+    background-color: white;
+    color: #2d2d2d;
+}
+
+.startStopBtn:active {
+    transition: 0s;
+    background-color: #868686
+}

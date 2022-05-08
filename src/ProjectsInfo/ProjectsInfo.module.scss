@@ -1,0 +1,91 @@
+.infosContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+    & > div {
+        height: 94%;
+        flex-basis: 50%;
+    }
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+}
+
+.projectsInfo {
+    padding-left: 40px;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.list {
+    list-style-type: "- ";
+    font-size: 1.5rem;
+}
+
+.listItem {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 25px;
+}
+
+.links {
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 25px;
+
+    a {
+        border-radius: 15px;
+        text-decoration: none;
+        min-width: 70%;
+        min-height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.6rem;
+        transition: 0.2s;
+        :nth-child(1) {
+            text-align: center;
+        }
+        :nth-child(2) {
+            flex-basis: 76%;
+            text-align: center;
+        }
+    }
+}
+
+.githubLink {
+    background-color: white;
+    color: #99007f;
+    border: 2px solid #99007f;
+    &:hover {
+        background-color: #47013c;
+        border-color: white;
+        color: white;
+    }
+}
+
+.liveDemo {
+    margin-top: 50px;
+    color: #00a2ff;
+    background-color: #000a29;
+    border: 2px solid #00a2ff;
+    &:hover {
+        background-color: #00a2ff;
+        border-color: #000a29;
+        color: #000a29;
+    }
+}
