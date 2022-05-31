@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/canvasProjectsWebsite/static/css/main.ebb2420a.css",
-    "main.js": "/canvasProjectsWebsite/static/js/main.7f0aa909.js",
+    "main.js": "/canvasProjectsWebsite/static/js/main.5c02b5fc.js",
     "static/media/dune.webp": "/canvasProjectsWebsite/static/media/dune.917fae6d9d6122fefe8b.webp",
     "static/media/brushpainting.webp": "/canvasProjectsWebsite/static/media/brushpainting.6373c742661c4b9cfce3.webp",
     "static/media/imageflow.webp": "/canvasProjectsWebsite/static/media/imageflow.4a214b638bd0a0f6c647.webp",
@@ -11,10 +11,10 @@
     "static/media/clock.webp": "/canvasProjectsWebsite/static/media/clock.0d7f20ebddc9e2855836.webp",
     "index.html": "/canvasProjectsWebsite/index.html",
     "main.ebb2420a.css.map": "/canvasProjectsWebsite/static/css/main.ebb2420a.css.map",
-    "main.7f0aa909.js.map": "/canvasProjectsWebsite/static/js/main.7f0aa909.js.map"
+    "main.5c02b5fc.js.map": "/canvasProjectsWebsite/static/js/main.5c02b5fc.js.map"
   },
   "entrypoints": [
     "static/css/main.ebb2420a.css",
-    "static/js/main.7f0aa909.js"
+    "static/js/main.5c02b5fc.js"
   ]
 }
