@@ -10,7 +10,7 @@ const circleRebound = {
     description: 'Draw rebouncing circles at position by clicking the canvas',
     image: circleImg,
     git: 'https://github.com/andrerrh/JSCanvasCircleRebound',
-    live: 'canvasProjectsWebsite/project/circlerebound'
+    live: 'canvasProjectsWebsite/canvasProjectsWebsite/project/circlerebound'
 }
 
 const brushPainting = {
