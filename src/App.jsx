@@ -8,8 +8,8 @@ function App() {
   return (
     <div className={style.appContainer}>
       <Routes>
-        <Route  exact path ='/canvasProjectsWebsite' element={<MainContainer />} />
-        <Route path ='/project/*' element={<ProjectLoader />} />
+        <Route  path ='/canvasProjectsWebsite' element={<MainContainer />} />
+        <Route path ='canvasProjectsWebsite/project/*' element={<ProjectLoader />} />
       </Routes>
     </div>
   )
